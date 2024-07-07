@@ -27,6 +27,12 @@ public class generics {
     public static  <T extends  Number> List<T> convertNumbersArrayToList(T [] array){
         return Arrays.asList(array);
     }
+    public static  <T> List<T> ArrayToList(T [] array){
+        return Arrays.asList(array);
+    }
+    public static  <T extends  Number> List<T> numbersArrayToList(T [] array){
+        return Arrays.asList(array);
+    }
 
 
 }
